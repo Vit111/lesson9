@@ -5,7 +5,7 @@
 @font-face {
     font-family: 'Roboto';
     src: url('../fonts/roboto-medium-webfont.woff2') format('woff2'),
-         url('../fonts/roboto-medium-webfont.woff') format('woff');
+        url('../fonts/roboto-medium-webfont.woff') format('woff');
     font-weight: 500;
     font-style: normal;
 
@@ -14,35 +14,34 @@
 @font-face {
     font-family: 'Roboto';
     src: url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
-         url('../fonts/roboto-regular-webfont.woff') format('woff');
+        url('../fonts/roboto-regular-webfont.woff') format('woff');
     font-weight: 400;
     font-style: normal;
 
 }
 
-*{
+* {
     box-sizing: border-box;
 }
 
-#wrapper{
+#wrapper {
     width: 100%;
     overflow: hidden;
 }
 
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
-.container{
+.container {
     width: 100%;
     max-width: 1150px;
     padding: 0 20px;
     margin: 0 auto;
 }
 
-
-#header{
+#header {
     position: fixed;
     top: 100;
     left: 0;
@@ -53,7 +52,7 @@
     border-bottom: 5px solid rgb(65, 196, 236);
 }
 
-.navigation{
+.navigation {
     font-size: 30px;
     line-height: 26px;
     font-weight: 400;
@@ -61,47 +60,44 @@
     font-weight: 500;
 }
 
-.menu{
+.menu {
     padding: 0;
     margin: 0 -21px;
     list-style: none;
 }
 
-.menu{
+.menu {
     content: ;
     display: block;
     clear: both;
 }
 
-.menu>li{
+.menu>li {
     float: left;
     margin: 0 21px 5px 0;
     position: relative;
 }
 
-.menu li:hover >.drop{
+.menu li:hover>.drop {
     display: block;
 }
 
-
-
-.navigation a{
+.navigation a {
     text-decoration: none;
     color: grey;
 }
 
-.navigation a:hover{
+.navigation a:hover {
     color: white;
     background-color: rgb(65, 196, 236);
 }
 
-
-.drop{
+.drop {
     display: none;
     position: absolute;
     background: rgb(65, 196, 236);
     padding: 5px 0;
-    margin: 0   ;
+    margin: 0;
     list-style: none;
     top: 100%;
     left: 0;
@@ -109,22 +105,19 @@
     width: 320px;
 }
 
-.drop .drop{
+.drop .drop {
     left: 100%;
     top: 0;
     background: rgb(65, 196, 236);
 }
 
-.drop li{
-    padding: 50px 10px;
+.drop li {
+    padding: 50px 0;
     position: relative;
-    outline: 1px solid blue;
-    margin: 50px 10px;
+    outline: 3px solid black;
+    margin: 50px 0;
 }
 
-.drop li a{
+.drop li a {
     color: white;
 }
-
-
-
